@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    margin-bottom: 40px;
+}
+.movies-col{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: 30px;
+}
+.title{
+    font-size: 20px;
+}
